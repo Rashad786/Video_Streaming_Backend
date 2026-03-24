@@ -1,0 +1,13 @@
+package com.rashad.Video_Streaming_Backend;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class VideoStreamingBackendApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
