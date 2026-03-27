@@ -1,6 +1,6 @@
 package com.rashad.Video_Streaming_Backend.service;
 
-import com.rashad.Video_Streaming_Backend.entity.Role;
+import com.rashad.Video_Streaming_Backend.entity.enums.Role;
 import com.rashad.Video_Streaming_Backend.entity.User;
 import com.rashad.Video_Streaming_Backend.repo.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,11 +1,13 @@
 package com.rashad.Video_Streaming_Backend.entity;
 
+import com.rashad.Video_Streaming_Backend.entity.enums.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
 @Table(name = "users")
@@ -36,6 +38,9 @@ public class User {
 
     @Column(updatable = false)
     private LocalDateTime createdAt;
+
+    @OneToMany(mappedBy = "uploadedBy")
+    private List<Video> videos;
 
     @PrePersist
     protected void onCreate() { createdAt = LocalDateTime.now(); }

@@ -1,6 +1,6 @@
 package com.rashad.Video_Streaming_Backend.config;
 
-import com.rashad.Video_Streaming_Backend.entity.Role;
+import com.rashad.Video_Streaming_Backend.entity.enums.Role;
 import com.rashad.Video_Streaming_Backend.entity.User;
 import com.rashad.Video_Streaming_Backend.repo.UserRepo;
 import com.rashad.Video_Streaming_Backend.service.JWTService;
@@ -45,11 +45,6 @@ public class OAuth2LoginSuccessHandler extends SimpleUrlAuthenticationSuccessHan
 
         String email = oAuth2User.getAttribute("email");
         String name = oAuth2User.getAttribute("name");
-//        String contactNumber = oAuth2User.getAttribute("contactNumber");
-
-//        if (name == null || name.isBlank()) {
-//            name = email.split("@")[0];
-//        }
 
         logger.debug("Extracted user details: email={}, name={}", email, name);
 
