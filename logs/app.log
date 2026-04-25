@@ -1,0 +1,334 @@
+2026-04-26 00:00:05 -  INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-26 00:00:05 -  INFO - c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-26 00:00:05 -  INFO - c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-04-26 00:04:51 -  INFO - c.r.V.VideoStreamingBackendApplication - Starting VideoStreamingBackendApplication using Java 22.0.1 with PID 21224 (C:\Users\Mohd Rashad\OneDrive\Desktop\Spring Boot\Telusko\Project\Video-Streaming-Backend\target\classes started by Mohd Rashad in C:\Users\Mohd Rashad\OneDrive\Desktop\Spring Boot\Telusko\Project\Video-Streaming-Backend)
+2026-04-26 00:04:51 -  INFO - c.r.V.VideoStreamingBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-26 00:04:53 -  INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-26 00:04:53 -  INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 208 ms. Found 4 JPA repository interfaces.
+2026-04-26 00:04:55 -  INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-26 00:04:55 -  INFO - o.a.c.c.StandardService - Starting service [Tomcat]
+2026-04-26 00:04:55 -  INFO - o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-26 00:04:55 -  INFO - o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2026-04-26 00:04:55 -  INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3977 ms
+2026-04-26 00:04:56 -  INFO - o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-26 00:04:56 -  INFO - o.h.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-26 00:04:56 -  INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-26 00:04:57 -  INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-26 00:04:57 -  INFO - c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2026-04-26 00:04:57 -  INFO - c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9e62fb
+2026-04-26 00:04:57 -  INFO - c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-26 00:04:57 -  WARN - o.h.o.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-26 00:05:00 -  INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-26 00:05:00 -  INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-26 00:05:01 -  WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-26 00:05:02 -  INFO - c.r.V.c.SecurityConfig - Configuring HTTP Security filters.
+2026-04-26 00:05:02 -  INFO - c.r.V.c.SecurityConfig - Configuring CORS with allowed origins and methods.
+2026-04-26 00:05:02 -  INFO - c.r.V.c.SecurityConfig - Configuring CORS Configuration.
+2026-04-26 00:05:02 -  INFO - c.r.V.c.SecurityConfig - CORS Configuration successfully set.
+2026-04-26 00:05:02 -  INFO - o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6bb46040, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b71a12e, org.springframework.security.web.context.SecurityContextHolderFilter@39e91bda, org.springframework.security.web.header.HeaderWriterFilter@7bc239db, org.springframework.web.filter.CorsFilter@41c56930, org.springframework.security.web.authentication.logout.LogoutFilter@60cbba57, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@3ba8fbc8, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@3a0f5141, com.rashad.Video_Streaming_Backend.config.JwtFilter@5f1a3c4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@21f27bb5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@60660d21, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@374013e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@712dd0b0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2898c70d, org.springframework.security.web.session.SessionManagementFilter@3e356ed6, org.springframework.security.web.access.ExceptionTranslationFilter@42a198dd, org.springframework.security.web.access.intercept.AuthorizationFilter@1e60890c]
+2026-04-26 00:05:03 -  INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-04-26 00:05:03 -  INFO - c.r.V.VideoStreamingBackendApplication - Started VideoStreamingBackendApplication in 13.019 seconds (process running for 14.156)
+2026-04-26 00:05:13 -  INFO - o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-26 00:05:13 -  INFO - o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-26 00:05:13 -  INFO - o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
+2026-04-26 00:05:13 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /auth/me
+2026-04-26 00:05:13 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:05:13 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:05:13 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:05:14 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:05:14 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:05:14 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:05:14 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:05:14 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:05:14 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:05:14 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:05:14 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:05:14 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /auth/me
+2026-04-26 00:05:14 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:05:14 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:05:14 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:05:14 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channel/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:05:14 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:05:14 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:05:14 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:05:14 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:05:14 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:05:14 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /auth/me
+2026-04-26 00:05:14 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:05:14 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:05:14 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:05:14 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:05:14 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:05:14 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /auth/me
+2026-04-26 00:05:14 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channel/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:05:18 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /video
+2026-04-26 00:05:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:05:18 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:05:18 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:05:18 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:05:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:05:18 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /video
+2026-04-26 00:05:21 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /auth/me
+2026-04-26 00:05:21 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:05:21 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:05:21 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:05:21 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:05:21 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:05:21 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /auth/me
+2026-04-26 00:05:21 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /auth/me
+2026-04-26 00:05:21 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:05:21 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:05:21 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:05:21 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:05:21 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:05:21 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /auth/me
+2026-04-26 00:05:21 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /video
+2026-04-26 00:05:21 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:05:21 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:05:21 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:05:21 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:05:21 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:05:21 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /video
+2026-04-26 00:05:25 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:05:25 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:05:25 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:05:25 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:05:25 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:05:25 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:05:25 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:05:25 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:05:25 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:05:25 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channel/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:05:25 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:05:25 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:05:25 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:05:25 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:05:25 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:05:25 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channel/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:06:37 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /auth/me
+2026-04-26 00:06:37 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:06:37 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:06:37 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:06:37 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:06:37 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:06:37 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /auth/me
+2026-04-26 00:06:37 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /auth/me
+2026-04-26 00:06:37 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:06:37 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:06:37 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:06:37 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:06:37 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:06:37 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /auth/me
+2026-04-26 00:06:38 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:06:38 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:06:38 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:06:38 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:06:38 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:06:38 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:06:38 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:06:38 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:06:38 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:06:38 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channel/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:06:38 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:06:38 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:06:38 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:06:38 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:06:38 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:06:38 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channel/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:07:42 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /auth/me
+2026-04-26 00:07:42 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:07:42 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:07:42 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:07:42 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:07:42 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:07:42 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /auth/me
+2026-04-26 00:07:42 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /auth/me
+2026-04-26 00:07:42 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:07:42 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:07:42 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:07:42 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:07:42 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:07:42 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /auth/me
+2026-04-26 00:07:42 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:07:42 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:07:42 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:07:42 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:07:42 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:07:42 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:07:42 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:07:42 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:07:42 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:07:42 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channel/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:07:43 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:07:43 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:07:43 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:07:43 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:07:43 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:07:43 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channel/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:14 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /auth/me
+2026-04-26 00:09:14 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:09:14 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:09:14 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:09:14 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:09:14 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:09:14 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /auth/me
+2026-04-26 00:09:14 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /auth/me
+2026-04-26 00:09:14 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:09:14 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:09:14 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:09:14 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:09:14 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:09:14 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /auth/me
+2026-04-26 00:09:15 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:15 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:09:15 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:09:15 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:09:15 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:09:15 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:09:15 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:15 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:15 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:09:15 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channel/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:15 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:09:15 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:09:15 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:09:15 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:09:15 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:15 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channel/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /auth/me
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:09:18 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:09:18 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:09:18 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /auth/me
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /auth/me
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:09:18 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:09:18 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:09:18 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /auth/me
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:09:18 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:09:18 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:09:18 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:09:18 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channel/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:18 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:09:18 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:18 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channel/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:20 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /video
+2026-04-26 00:09:20 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:09:20 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:09:20 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:09:20 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:09:20 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:09:20 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /video
+2026-04-26 00:09:26 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:26 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:09:26 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:09:26 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:09:26 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:09:26 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:09:26 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:26 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:26 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:09:26 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channel/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:26 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:09:26 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:09:26 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:09:26 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:09:26 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:09:26 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channel/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:10:18 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /auth/me
+2026-04-26 00:10:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:10:18 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:10:18 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:10:18 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:10:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:10:18 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /auth/me
+2026-04-26 00:10:18 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /auth/me
+2026-04-26 00:10:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:10:18 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:10:18 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:10:18 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:10:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:10:18 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /auth/me
+2026-04-26 00:10:18 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:10:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:10:18 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:10:18 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:10:18 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:10:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:10:18 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:10:18 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:10:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:10:18 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:10:18 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:10:18 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:10:18 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:10:18 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:10:27 -  INFO - c.r.V.c.VideoController - Request URI: /video/152/v1080p/playlist.m3u8
+2026-04-26 00:10:27 -  INFO - c.r.V.c.VideoController - Extracted segment path: v1080p/playlist.m3u8
+2026-04-26 00:10:27 -  INFO - c.r.V.c.VideoController - Resolved file path: C:\Users\Mohd Rashad\OneDrive\Desktop\Spring Boot\Telusko\Project\Video-Streaming-Backend\videos-hls\152\v1080p\playlist.m3u8
+2026-04-26 00:10:27 -  INFO - c.r.V.c.VideoController - Serving file with Content-Type: application/vnd.apple.mpegurl
+2026-04-26 00:10:31 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:10:31 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:10:31 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:10:31 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:10:31 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:10:31 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:10:31 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:10:31 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:10:31 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:10:31 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:10:31 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:10:31 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:10:31 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:10:31 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:10:43 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /video
+2026-04-26 00:10:43 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:10:43 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:10:43 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:10:43 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:10:43 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:10:43 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /video
+2026-04-26 00:11:49 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:11:49 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:11:49 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:11:49 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:11:49 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:11:49 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:11:49 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:11:49 -  INFO - c.r.V.c.JwtFilter - Processing request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:11:49 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' is not authenticated, proceeding with token validation.
+2026-04-26 00:11:49 -  INFO - c.r.V.c.UserPrincipal - UserPrincipal created for user with email: romeo@gmail.com
+2026-04-26 00:11:49 -  INFO - c.r.V.c.UserPrincipal - Retrieving authorities for user: romeo@gmail.com
+2026-04-26 00:11:49 -  INFO - c.r.V.c.UserPrincipal - Assigned authority: USER
+2026-04-26 00:11:49 -  INFO - c.r.V.c.JwtFilter - User 'romeo@gmail.com' successfully authenticated.
+2026-04-26 00:11:49 -  INFO - c.r.V.c.JwtFilter - Continuing filter chain for request to URI: /channels/8efd89e0-0a5d-434b-a9df-3cc82f37fcc6
+2026-04-26 00:13:40 -  INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-26 00:13:40 -  INFO - c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-26 00:13:40 -  INFO - c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-04-26 00:13:44 -  INFO - c.r.V.VideoStreamingBackendApplication - Starting VideoStreamingBackendApplication using Java 22.0.1 with PID 22220 (C:\Users\Mohd Rashad\OneDrive\Desktop\Spring Boot\Telusko\Project\Video-Streaming-Backend\target\classes started by Mohd Rashad in C:\Users\Mohd Rashad\OneDrive\Desktop\Spring Boot\Telusko\Project\Video-Streaming-Backend)
+2026-04-26 00:13:44 -  INFO - c.r.V.VideoStreamingBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-26 00:13:46 -  INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-26 00:13:47 -  INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 204 ms. Found 4 JPA repository interfaces.
+2026-04-26 00:13:48 -  INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-26 00:13:48 -  INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3867 ms
+2026-04-26 00:13:49 -  INFO - o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-26 00:13:49 -  INFO - o.h.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-26 00:13:49 -  INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-26 00:13:50 -  INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-26 00:13:50 -  INFO - c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2026-04-26 00:13:50 -  INFO - c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b4bd341
+2026-04-26 00:13:50 -  INFO - c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-26 00:13:50 -  WARN - o.h.o.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)

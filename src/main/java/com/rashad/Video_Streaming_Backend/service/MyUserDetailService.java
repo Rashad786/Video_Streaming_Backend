@@ -15,9 +15,9 @@ public class MyUserDetailService implements UserDetailsService {
     @Autowired
     private UserRepo userRepo;
 
-    public UserDetails loadUserByUsername(String userName) {
-        User user = userRepo.findByUsername(userName)
-                .orElseThrow(() -> new UsernameNotFoundException("User not found: " + userName));
+    public UserDetails loadUserByUsername(String email) {
+        User user = userRepo.findByEmail(email)
+                .orElseThrow(() -> new UsernameNotFoundException("User not found: " + email));
 
         return new UserPrincipal(user);
     }

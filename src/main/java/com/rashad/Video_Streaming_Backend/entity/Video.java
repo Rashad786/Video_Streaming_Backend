@@ -1,15 +1,14 @@
 package com.rashad.Video_Streaming_Backend.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.rashad.Video_Streaming_Backend.entity.enums.ReactionType;
 import com.rashad.Video_Streaming_Backend.entity.enums.VideoStatus;
 import com.rashad.Video_Streaming_Backend.entity.enums.Visibility;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -17,7 +16,8 @@ import java.util.List;
 @Entity
 @AllArgsConstructor
 @RequiredArgsConstructor
-@Data
+@Getter
+@Setter
 @Builder
 public class Video {
 
@@ -29,12 +29,18 @@ public class Video {
     private String description;
 
     @ManyToOne
+    @JsonIgnore
     private User uploadedBy;
 
+    @ManyToOne
+    private Channel channel;
+
     private String tags;
-    private String thumbnailUrl;
+//    private MultipartFile thumbnailUrl;
     private String videoUrl;
     private Visibility visibility;
+    private String contentType;
+    private String filePath;
 
     @CreationTimestamp
     private LocalDateTime createdAt;
@@ -43,6 +49,9 @@ public class Video {
     private LocalDateTime updatedAt;
 
     private VideoStatus status;
+
+    private int likes;
+    private int disLike;
 
     @OneToMany(mappedBy = "video")
     private List<Comment> comments;

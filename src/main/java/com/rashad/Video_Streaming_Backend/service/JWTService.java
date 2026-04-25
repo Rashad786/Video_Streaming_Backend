@@ -8,6 +8,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 import java.security.Key;
@@ -33,11 +34,11 @@ public class JWTService {
         claims.put("role", user.getRole().name());
         claims.put("userId", user.getId());
         claims.put("email", user.getEmail());
-        return buildToken(claims, user.getUserName(), jwtExpiration);
+        return buildToken(claims, user.getEmail(), jwtExpiration);
      }
 
     public String generateRefreshToken(User user) {
-        return buildToken(new HashMap<>(), user.getUserName(), refreshExpiration);
+        return buildToken(new HashMap<>(), user.getEmail(), refreshExpiration);
     }
 
     private String buildToken(Map<String, Object> claims, String subject, long jwtExpiration) {
@@ -55,29 +56,41 @@ public class JWTService {
     }
 
 
-    public boolean isTokenValid(String token, String userName) {
-        try{
-            return extractUsername(token).equals(userName) && !isTokenExpired(token);
-        }catch (JwtException e) {
+    // ================== VALIDATION ==================
+
+    public boolean isTokenValid(String token, UserDetails userDetails) {
+        try {
+            final String username = extractUsername(token);
+            return username.equals(userDetails.getUsername()) && !isTokenExpired(token);
+        } catch (JwtException | IllegalArgumentException e) {
             return false;
         }
     }
 
-    private boolean isTokenExpired(String token) {
-        return extractExpiration(token).before(new Date());
-    }
+    // ================== CLAIM EXTRACTION ==================
 
-    // ── Extract claims ────────────────────────────────────────────────────────
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);
+    }
+
+    public String extractRole(String token) {
+        return extractAllClaims(token).get("role", String.class);
+    }
+
+    public Long extractUserId(String token) {
+        return extractAllClaims(token).get("userId", Long.class);
     }
 
     private Date extractExpiration(String token) {
         return extractClaim(token, Claims::getExpiration);
     }
 
-    public <T> T extractClaim(String token, Function<Claims, T> claimsResolver) {
-        return claimsResolver.apply(extractAllClaims(token));
+    public <T> T extractClaim(String token, Function<Claims, T> resolver) {
+        return resolver.apply(extractAllClaims(token));
+    }
+
+    public boolean isTokenExpired(String token) {
+        return extractExpiration(token).before(new Date());
     }
 
     private Claims extractAllClaims(String token) {

@@ -7,6 +7,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -21,6 +22,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "user_name")
     private String userName;
 
     @Column(nullable = false, unique = true)
@@ -41,6 +43,9 @@ public class User {
 
     @OneToMany(mappedBy = "uploadedBy")
     private List<Video> videos;
+
+    @OneToOne(mappedBy = "user")
+    private Channel channel;
 
     @PrePersist
     protected void onCreate() { createdAt = LocalDateTime.now(); }

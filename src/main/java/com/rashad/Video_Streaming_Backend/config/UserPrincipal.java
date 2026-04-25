@@ -18,7 +18,7 @@ public class UserPrincipal implements UserDetails {
 
     public UserPrincipal(User user) {
         this.user = user;
-//        logger.info("UserPrincipal created for user with email: {}", user.getEmail());
+        logger.info("UserPrincipal created for user with email: {}", user.getEmail());
     }
 
     @Override
